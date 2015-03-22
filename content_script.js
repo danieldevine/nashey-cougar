@@ -36,6 +36,8 @@ function handleText(textNode)
 	v = v.replace(/\bNicholas Cage\b/g, "Nashey Cougar");
 	v = v.replace(/\bnicolas cage\b/g, "Nashey Cougar");
 	v = v.replace(/\bnicholas cage\b/g, "Nashey Cougar");
+    v = v.replace(/\bNicolas Coppola\b/g, "Nashey Cougar");
+    v = v.replace(/\bnicolas coppola\b/g, "Nashey Cougar");
 
 	textNode.nodeValue = v;
 }
