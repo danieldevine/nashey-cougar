@@ -2,7 +2,8 @@ walk(document.body);
 
 function walk(node)
 {
-	// I stole this function from here:
+	// I stole this function from https://github.com/panicsteve/cloud-to-butt
+    // who stole it from here:
 	// http://is.gd/mwZp7E
 
 	var child, next;
