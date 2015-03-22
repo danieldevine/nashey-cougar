@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Nashey Cougar",
+	"version": "1.0",
+	"description": "Replaces the text 'Nicolas Cage' with 'Nashey Cougar'.",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
+
