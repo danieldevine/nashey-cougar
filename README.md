@@ -8,4 +8,5 @@ This is "inspired" by [cloud-to-butt](https://github.com/panicsteve/cloud-to-but
 [of this](https://www.youtube.com/watch?v=kX30tdH0xhs)
 
 ##Installation
-Go to chrome://extensions/ and drag and drop the crx onto the window.
+Download the Zip, extract it to wherever, then
+Go to chrome://extensions/ and drag and drop nashey-cougar.crx onto the window.
