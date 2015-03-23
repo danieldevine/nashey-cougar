@@ -28,6 +28,7 @@ function walk(node) {
 function handleText(textNode) {
   var v = textNode.nodeValue;
 
+  v = v.replace(/\bNick Cage\b/g, "Nashey Cougar");
   v = v.replace(/\bNicolas Cage\b/g, "Nashey Cougar");
   v = v.replace(/\bNicholas Cage\b/g, "Nashey Cougar");
   v = v.replace(/\bnicolas cage\b/g, "Nashey Cougar");
